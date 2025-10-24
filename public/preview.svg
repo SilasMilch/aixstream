@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#2b6af6"/>
+      <stop offset="1" stop-color="#3fb7ff"/>
+    </linearGradient>
+    <style>
+      .title{font-family: Inter, Arial, sans-serif; font-weight:700; fill:#fff; font-size:64px}
+      .subtitle{font-family: Inter, Arial, sans-serif; fill:#dbeafe; font-size:28px}
+    </style>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g)" />
+  <g transform="translate(80,160)">
+  <text class="title">AixStream</text>
+    <text y="80" class="subtitle">Real‑Time Journalism, On‑Demand</text>
+  </g>
+  <!-- small badge -->
+  <g transform="translate(80,700)">
+    <rect x="0" y="0" rx="8" ry="8" width="220" height="56" fill="#0ea5a4" />
+    <text x="18" y="36" font-family="Inter, Arial, sans-serif" font-size="20" fill="#012">Powered by Base</text>
+  </g>
+</svg>
